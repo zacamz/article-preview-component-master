@@ -9,28 +9,31 @@
   <title>Frontend Mentor | Article preview component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+  <div class="ArticlePreview">
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+    <div class="ArticleImageContainer">
+      <img src="./images/drawers.jpg" alt="Article Image" class="ArticleImg">
+    </div>
+    <div class="ArticleInfo">
+    <h1 class="ArticleTitle">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1> 
+    <h3 class="ArticleDesc">Ever been in a room and felt like osmething was missing? Perhaps it felt slightly bare and univiting. I've got some simple tips to help make any room feel complete.</h3>
+    <div class="ArticleAuthorInfo">
+      <div class="ArticleAuthorAvatarContainer">
 
-  Michelle Appleton
-  28 Jun 2020
+        <img src="./images/avatar-michelle.jpg" alt="Photo of the Author" class="ArticleAuthorAvatar">
+      </div>
+      <div class="AuthorText">
+        <h2 class="AuthorsName">Michelle Appleton</h2>
+        <div class="ArticlePublishDate">28 Jun 2020</div>
+      </div>
+      <button class="ArticleShareButton"><img src="./images/icon-share.svg" alt="Share Button"></button>
+    </div>
+    </div>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 </html>
